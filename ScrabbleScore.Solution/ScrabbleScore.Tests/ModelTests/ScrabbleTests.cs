@@ -11,12 +11,12 @@ namespace ScrabbleScore.Tests
     public void CheckScore_returnSum_Integer()
     {
       //arrange
-      string word = "hi";
-      int answer = 4;
+      string word = "qqq";
+      int score = 30;
       //act
       int result = CheckScore(word);
       //assert
-      Assert.AreEqual(answer,result);
+      Assert.AreEqual(score,result);
     }
   }
-}
+} 
